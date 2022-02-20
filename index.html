@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Quiz Application</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- STYLES -->
+    <link rel="stylesheet" href="./styles/style.css">
+    <!--Jquery CDN-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!--GOOGLE FONTS.-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <!-- BOOTSTRAP ICONS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css" integrity="sha384-ejwKkLla8gPP8t2u0eQyL0Q/4ItcnyveF505U0NIobD/SMsNyXrLti6CWaD0L52l" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="quiz-Container" id="quiz">
+        <div class="quiz-header">
+            <h2 id="question">Question text</h2>
+            <ul>
+
+                <li>
+                    <input type="radio" id="a" name="answer" class="answer">
+                    <label for="a" id="a_text">Question</label>
+                </li>
+                <li>
+                    <input type="radio" id="b" name="answer" class="answer">
+                    <label for="a" id="b_text">Question</label>
+                </li>
+                <li>
+                    <input type="radio" id="c" name="answer" class="answer">
+                    <label for="a" id="c_text">Question</label>
+                </li>
+                <li>
+                    <input type="radio" id="d" name="answer" class="answer">
+                    <label for="a" id="d_text">Question</label>
+                </li>
+            </ul>
+        </div>
+        <button id="submit">Submit <i class="bi bi-arrow-right-circle-fill"></i></button>
+    </div>
+
+</body>
+
+<!-- script file -->
+<script src="./index.js"></script>
+
+</html>
